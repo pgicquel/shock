@@ -1,6 +1,9 @@
 function s = shock1(U0,Dt,h)
 %1D shock approximation, CFL: Dt*F<=1/2*h
-    L = size (U0,1); 
+    L = size (U0,1);
+    if L == 1
+        U0 = U0';
+    end
     U = zeros(L,1);
     N = uint8(1/Dt);
     
