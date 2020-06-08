@@ -1,2 +1,2 @@
 # shock
-Pour partager le code Matlab et le rapport Latex
+Reference: Stanley Osher and Leonid I. Rudin.  Feature-Oriented Image Enhancement Using Shock Filters
